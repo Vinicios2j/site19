@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 🔥</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #ff4d4d;
+    }
+    button {
+      background: #ff4d4d;
+      border: none;
+      color: #fff;
+      padding: 15px 25px;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #cc0000;
+    }
+    .hidden {
+      display: none;
+    }
+    .box {
+      background: #222;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: left;
+    }
+    .fire {
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Olá Mor ❤️</h1>
+  <p>Aqui é seu Mor... e eu tenho um desafio para você 😏</p>
+  <h2>🔥 Desafio das Posições 🔥</h2>
+
+  <button onclick="mostrarDesafio()">Mais sobre o desafio</button>
+
+  <div id="desafio" class="hidden">
+    <div class="box">
+      <p><b>Data:</b> 04/10</p>
+      <p><b>Hora:</b> Madrugada 🌙</p>
+      <br>
+      <h3 class="fire">🔥 Roteiro</h3>
+      <p><b>1. Aquecimento (5 min)</b><br>
+      Posição: Papai e mamãe.<br>
+      Beijos, olho no olho, ritmo suave.</p>
+
+      <p><b>2. Cavalgada (5 min)</b><br>
+      Posição: Ela por cima.<br>
+      Ela controla, você segura firme.</p>
+
+      <p><b>3. De ladinho (5 min)</b><br>
+      Posição: Conchinha.<br>
+      Bem íntimo, relaxa um pouco.</p>
+
+      <p><b>4. Doggy style (5 min)</b><br>
+      Posição: De quatro.<br>
+      Ritmo variado, pressão máxima 🔥.</p>
+
+      <p><b>5. Oral + 69 (5 min)</b><br>
+      Provoca sem pressa, controla bem!</p>
+
+      <p><b>6. Final livre (5 min)</b><br>
+      Escolhem a posição favorita.<br>
+      Agora sim é hora de gozar sem pena 😏.</p>
+    </div>
+
+    <button onclick="aceitarDesafio()">✅ Aceito o desafio</button>
+  </div>
+
+  <script>
+    function mostrarDesafio() {
+      document.getElementById("desafio").classList.remove("hidden");
+    }
+
+    function aceitarDesafio() {
+      // substitui pelo seu número (formato: 55 + DDD + número)
+      const numero = "5521995294926";  
+      const mensagem = "Aceito o desafio 🔥";
+      window.location.href = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+    }
+  </script>
+
+</body>
+</html>
